@@ -1,4 +1,15 @@
 #!/bin/bash
+# A script to install Docker and Docker Compose on Ubuntu 
+# using the convenience script for Docker 
+# and the standalone binary for Docker Compose
+# 
+# To run the script:
+# 1. Make the script executable
+# chmod +x install-docker.sh
+# 
+# 2. Run the script
+# ./install-docker.sh
+
 
 # Step 1: Install Docker using the convenience script
 echo "Downloading and installing Docker..."
