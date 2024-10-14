@@ -18,6 +18,6 @@ docker volume prune -f
 
 
 echo "system prune..."
-docker system prune -a
+docker system prune -a -f --volumes
 
 echo "Docker cleanup completed."
